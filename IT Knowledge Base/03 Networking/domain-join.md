@@ -1,4 +1,4 @@
-<p><strong style="font-size:24px;">Domain Join Troubleshooting</strong></p>
+# Domain Join Troubleshooting</strong></p>
 
 
 ## Purpose
