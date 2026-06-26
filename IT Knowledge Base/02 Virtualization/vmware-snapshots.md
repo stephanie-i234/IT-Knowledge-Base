@@ -1,4 +1,4 @@
-<p><strong style="font-size:24px;">Creating a Snapshot For VMWare Workstation</strong></p>
+# Creating a Snapshot For VMWare Workstation</strong></p>
 
 
 ## Purpose 
@@ -20,13 +20,13 @@ VMWare Workstation
 ## Steps:
 
 1. Open VMWare Workstation and the specific Virtual Machine needed to be preserved
-![VM bar option](VMSnapshotManager1.png)
+![VM bar option](images/VMSnapshotManager1.png)
 
 2. Select VM > Snapshot > Take Snapshot.
-![Snapshot dialogue window](VMSnapshotManager2.png)
+![Snapshot dialogue window](images/VMSnapshotManager2.png)
 
 3. In the dialogue window that comes up enter your snapshot name and click "Take Snapshot"
-![Snapshot Manager, completed snapshot window](VMSnapshotManager.png)
+![Snapshot Manager, completed snapshot window](images/VMSnapshotManager.png)
 
 
 ## Verification 
