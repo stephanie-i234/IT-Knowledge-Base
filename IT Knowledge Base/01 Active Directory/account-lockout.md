@@ -1,4 +1,4 @@
-<p><strong style="font-size:24px;">Unlocking a Locked Active Directory User Account </strong></p>
+# Unlocking a Locked Active Directory User Account 
 
 ## Purpose
 This document provides the procedure for unlocking a user account in Active Directory after the account has been locked due to multiple failed sign-in attempts.
