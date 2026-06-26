@@ -46,28 +46,28 @@ This document provides the procedure for verifying and correcting client configu
 ## Resolution
 
 1. Open **Command Prompt** as an Administrator.
-![Command Prompt opened as Administrator](dns-step-1.png)
+![Command Prompt opened as Administrator](images/dns-step-1.png)
 2. Run `ipconfig /all` to verify the current IP configuration and DNS server address.
-![Cmd Prompt ipconfig](dns-step-2.png)
+![Cmd Prompt ipconfig](images/dns-step-2.png)
 3. Run `nslookup corp.local` to verify that the domain name resolves successfully.
 
 4. Run `ipconfig /flushdns` to clear the local DNS cache if necessary.
-![nslookup srv Cmd Prompt](dmn-join-step4&12.png)
+![nslookup srv Cmd Prompt](images/dmn-join-step4&12.png)
 5. Open **Control Panel** and navigate to **Network and Internet > Network and Sharing Center**.
 
 6. Select the active **Ethernet** connection.
 7. Select **Properties**.
-![Network and Sharing Center window](dns-step-5.png)
+![Network and Sharing Center window](images/dns-step-5.png)
 8. Double-click **Internet Protocol Version 4 (TCP/IPv4)**.
-![Ethernet Properties window](dns-step-7.png)
+![Ethernet Properties window](images/dns-step-7.png)
 9. Verify that **Use the following DNS server addresses** is selected.
-![TCP/IPv4 Properties window](dns-step-9.png)
+![TCP/IPv4 Properties window](images/dns-step-9.png)
 10. Enter the IP address of the Domain Controller's DNS server if corrections are required.
 11. Select **OK** to save the changes.
 12. Run `ipconfig /flushdns` again.
-![nslookup srv Cmd Prompt](dmn-join-step4&12.png)
+![nslookup srv Cmd Prompt](images/dmn-join-step4&12.png)
 13. Run `nslookup -type=SRV _ldap._tcp.dc._msdcs.corp.local` to verify that the Domain Controller's LDAP service records can be located.
-![nslookup srv Cmd Prompt](dmn-join-step13.png)
+![nslookup srv Cmd Prompt](images/dmn-join-step13.png)
 14. Run `ping dc01` and `ping corp.local` to verify basic network connectivity and name resolution.
 15. Attempt to join the workstation to the domain again.
 
@@ -89,3 +89,4 @@ This document provides the procedure for verifying and correcting client configu
 * Use `nslookup` to verify DNS name resolution.
 * Use `nslookup -type=SRV` to verify that Active Directory service records are registered and discoverable.
 * Active Directory relies on DNS to locate Domain Controllers and authentication services.
+  
