@@ -1,4 +1,4 @@
-<p><strong style="font-size:24px;">Upgrading a RAM card in Laptop Device</strong></p>
+# Upgrading a RAM card in Laptop Device</strong></p>
 
 
 ## Purpose 
@@ -31,9 +31,9 @@ This document provides the procedure for replacing or upgrading a laptop's RAM m
 ## Cause 
 User may want to upgrade Laptop RAM due to laptop performance issues 
 
-![Task Manager thrashing disk](task-manager-disk-thrash-1.PNG)
+![Task Manager thrashing disk](images/task-manager-disk-thrash.PNG)
 
-![Task Manager thrashing disk](OLD-RAM-SS-1.png)
+![Task Manager thrashing disk](images/OLD-RAM-SS.png)
 
 
 ## Procedure
@@ -53,10 +53,11 @@ User may want to upgrade Laptop RAM due to laptop performance issues
 7. Turn on the Laptop as needed
 
 8. Verify on Task Manager or Systems Information that the RAM space has been updated
-![RAM addition](disk.change.1-1.PNG)
+   
+![RAM addition](images/disk.change.1.PNG)
 
 
-#### Refer to RAM Upgrade Demonstration for video demonstration
+#### Refer to Laptop RAM Upgrade Demonstration: [▶ View KB-005](https://youtu.be/EiQA1rdzX1w)
 
 ## Verification
 * Task Manager reports the expected installed memory.
