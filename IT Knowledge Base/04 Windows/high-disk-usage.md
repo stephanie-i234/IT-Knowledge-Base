@@ -1,4 +1,4 @@
-<p><strong style="font-size:24px;">Disk Thrashing Troubleshooting</strong></p>
+# Disk Thrashing Troubleshooting</strong></p>
 
 
 ## Purpose
@@ -44,17 +44,17 @@ This document provides the troubleshooting procedure for diagnosing and reducing
 ## Resolution
 
 1. Open Task Manager via the windows search bar and select the Processes tab.
-![Task Manager windows search](hdu-step-1.png)
-![Task Manager, Drive Focused window](hdu-step-1.5.png)
+![Task Manager windows search](images/hdu-step-1.png)
+![Task Manager, Drive Focused window](images/hdu-step-1.5.png)
 2. Sort processes by Disk usage to identify the highest disk consumers.
-![Run dialogue, resmon](hdu-step-2.png)
+![Run dialogue, resmon](images/hdu-step-2.png)
 3. Press Windows + R, type resmon, and open Resource Monitor to obtain additional disk activity information.
-![Resource Monitor window](hdu-step-3.png)
+![Resource Monitor window](images/hdu-step-3.png)
 4. Pause OneDrive synchronization if it is actively consuming disk resources.
-![OneDrive Synchronization](hdu-step-4.png)
+![OneDrive Synchronization](images/hdu-step-4.png)
 5. If additional troubleshooting is required, press Windows + R, type services.msc, and open the Services console.
-![Run dialogue box, service.msc](hdu-step-5.png)
-![Services window](hdu-step-5.5.png)
+![Run dialogue box, service.msc](images/hdu-step-5.png)
+![Services window](images/hdu-step-5.5.png)
 6. Review services that may contribute to excessive disk usage (for example, SysMain). Stop or temporarily disable services only when appropriate and after understanding their purpose.
 	Examples of services or processes that may contribute to high disk utilization include:
 
@@ -65,15 +65,15 @@ This document provides the troubleshooting procedure for diagnosing and reducing
 	- Windows Update
 	- Delivery Optimization
 
-![Services window, pausing service](hdu-step-6.png)
+![Services window, pausing service](images/hdu-step-6.png)
 7. Open Windows Security.
-![Window Security windows search](hdu-step-7.png)
+![Window Security windows search](images/hdu-step-7.png)
 8. Navigate to Virus & threat protection.
-![Window Security settings window](hdu-step-8.png)
+![Window Security settings window](images/hdu-step-8.png)
 9. Select Manage settings under Virus & threat protection settings.
-![Windows Security, Virus & threat window](hdu-step-9.png)
+![Windows Security, Virus & threat window](images/hdu-step-9.png)
 10. If appropriate for a controlled troubleshooting or lab environment, temporarily disable Real-time protection.
-![Virus & threat setting window](hdu-step-10.png)
+![Virus & threat setting window](images/hdu-step-10.png)
 11. Continue monitoring disk utilization using Task Manager and Resource Monitor to verify whether utilization decreases.
 
 
