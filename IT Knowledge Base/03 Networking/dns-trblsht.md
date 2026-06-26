@@ -1,4 +1,4 @@
-<p><strong style="font-size:24px;">DNS Server Configuration and Troubleshooting</strong></p>
+# DNS Server Configuration and Troubleshooting</strong></p>
 
 
 ## Purpose
@@ -40,33 +40,33 @@ The client workstation is configured with an incorrect DNS server address, preve
 ## Resolution
 
 1. Open **Command Prompt** as an Administrator.
-![Command Prompt opened as Administrator](dns-step-1.png)
+![Command Prompt opened as Administrator](images/dns-step-1.png)
 
 2. Run `ipconfig /all` to verify the current network configuration and DNS server address.
-![Cmd Prompt ipconfig](dns-step-2.png)
+![Cmd Prompt ipconfig](images/dns-step-2.png)
 
 3. Run `nslookup` to verify DNS name resolution.
-![Successful nslookup output verifying DNS resolution](dns-step-3.png)
+![Successful nslookup output verifying DNS resolution](images/dns-step-3.png)
 
 4. Open **Control Panel** and navigate to **Network and Internet > Network and Sharing Center**.
-![Windows Search Control Panel](dns-step-4.png)
+![Windows Search Control Panel](images/dns-step-4.png)
 
 5. Select the active **Ethernet** connection.
-![Network and Sharing Center window](dns-step-5.png)
+![Network and Sharing Center window](images/dns-step-5.png)
 
 
 6. Double-click **Internet Protocol Version 4 (TCP/IPv4)**.
-![Ethernet Properties window](dns-step-7.png)
+![Ethernet Properties window](images/dns-step-7.png)
 
 7. Select **Use the following DNS server addresses**.
 
 8. Enter the IP address of the Domain Controller's DNS server.
-![TCP/IPv4 Properties window](dns-step-9.png)
+![TCP/IPv4 Properties window](images/dns-step-9.png)
 
 9. Select **OK** to save the changes.
 10. Open Command Prompt and run `ipconfig /flushdns`.
 11. Run `nslookup` again to verify successful DNS resolution.
-![Successful nslookup verification](dns-step-11&12.png)
+![Successful nslookup verification](images/dns-step-11&12.png)
 
 
 #### Refer to HDD-05 for video demonstrations
