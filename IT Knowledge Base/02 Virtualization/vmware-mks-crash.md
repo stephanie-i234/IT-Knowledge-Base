@@ -1,4 +1,4 @@
-<p><strong style="font-size:24px;">VMware Workstation MKS Crash Troubleshooting</strong></p>
+# VMware Workstation MKS Crash Troubleshooting</strong></p>
 
 
 ## Purpose
