@@ -1,4 +1,4 @@
-<p><strong style="font-size:24px;">Creating a New User on the Domain Controller</strong></p>
+# Creating a New User on the Domain Controller</strong></p>
 
 ## Purpose 
 This document provides the procedure for creating a user account in Active Directory
