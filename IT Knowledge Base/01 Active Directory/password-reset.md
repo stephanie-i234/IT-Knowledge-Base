@@ -1,4 +1,4 @@
-<p><strong style="font-size:24px;">Resetting a Password for a User</strong></p>
+# Resetting a Password for a User</strong></p>
 
 
 ## Purpose
